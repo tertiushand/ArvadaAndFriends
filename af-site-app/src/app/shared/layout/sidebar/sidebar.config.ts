@@ -4,6 +4,10 @@ export class SidebarConfig {
     config: Array<Nav> =
     [
         {
+            "label": "Shop",
+            "icon": "",
+            "route": "shop"
+        },{
             "label": "External Links",
             "subnav": [
                 {
