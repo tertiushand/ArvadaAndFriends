@@ -5,7 +5,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NormalComponent } from './normal/normal.component';
 import { DemoFormsComponent } from './demo-forms/demo-forms.component';
 import { DemoChartsComponent } from './demo-charts/demo-charts.component';
-import { DemoTablesComponent } from './demo-tables/demo-tables.component'
+import { DemoTablesComponent } from './demo-tables/demo-tables.component';
+import { ShopComponent } from './shop/shop.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,9 @@ const routes: Routes = [
   },{
     path: 'demo-tables',
     component: DemoTablesComponent
+  },{
+    path: 'shop',
+    component: ShopComponent
   }
 ];
 

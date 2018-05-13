@@ -14,6 +14,7 @@ import { NormalModule } from './normal/normal.module';
 import { DemoFormsModule } from './demo-forms/demo-forms.module';
 import { DemoChartsModule } from './demo-charts/demo-charts.module';
 import { DemoTablesModule } from './demo-tables/demo-tables.module';
+import { ShopModule } from './shop/shop.module';
 
 @NgModule({
   imports: [
@@ -25,7 +26,8 @@ import { DemoTablesModule } from './demo-tables/demo-tables.module';
     NormalModule,
     DemoFormsModule,
     DemoChartsModule,
-    DemoTablesModule
+    DemoTablesModule,
+    ShopModule
   ],
   providers: [
     Styling,
