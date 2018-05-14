@@ -4,11 +4,11 @@
 <one-box>
   <div class="row">
     <div class="d-flex justify-content-between flex-wrap">
-      <div class="box">
-        <img src="../../../assets/imgs/tshirt-base/test-shirt.png"/>
-        <img src="../../../assets/imgs/tshirt-designs/af-pogo.png" class="design"/>
-        <h4>Arvada and Friends: PoGo</h4>
-        <h5>price: $16.50</h5>
+      <div class="box" *ngFor="let product of productInfo.products">
+        <img src="../../../assets/imgs/tshirt-base/{{productInfo.bases[product.base].img}}.png"/>
+        <img src="{{'../../../assets/imgs/tshirt-designs/'+product.img+'.png'}}" class="design"/>
+        <h4>{{product.name}}</h4>
+        <h5>price: {{productInfo.bases[product.base].price | currency}}</h5>
       </div>
       <div class="box"><img src="../../../assets/imgs/tshirt-base/test-shirt.png"/></div>
       <div class="box"><img src="../../../assets/imgs/tshirt-base/test-shirt.png"/></div>
