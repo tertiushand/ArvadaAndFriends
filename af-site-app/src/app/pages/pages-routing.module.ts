@@ -20,30 +20,28 @@ export const routes: Array<MyRoute> = [
   {
     path: 'dashboard',
     component: DashboardComponent
-  },{
+  }, {
     path: 'demos',
     children: [
       {
         path: 'normal',
         component: NormalComponent,
-        data: {label:"Average Page"}
-      },{
+        data: {label: "Average Page"}
+      }, {
         path: 'demo-form',
         component: DemoFormsComponent
-      },{
+      }, {
         path: 'demo-charts',
         component: DemoChartsComponent
-      },{
+      }, {
         path: 'demo-tables',
         component: DemoTablesComponent
-  },{
-    path: 'shop',
-    component: ShopComponent
+      }, {
+        path: 'shop',
+        component: ShopComponent
       }
-    ],
-    subnavState: 'inactive'
+    ]
   }
-  
 ];
 
 @NgModule({
