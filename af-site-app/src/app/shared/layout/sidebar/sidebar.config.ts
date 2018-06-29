@@ -8,6 +8,9 @@ export class SidebarConfig {
             "icon": "",
             "route": "shop"
         },{
+            "icon": "",
+            "route": "shop"
+        },{
             "label": "External Links",
             "subnav": [
                 {
