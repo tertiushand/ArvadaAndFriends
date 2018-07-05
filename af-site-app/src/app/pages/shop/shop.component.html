@@ -1,9 +1,6 @@
-<p>
-  shop works!
-</p>
 <one-box>
   <div class="row">
-    <div class="d-flex justify-content-between flex-wrap">
+    <div class="d-flex flex-wrap">
       <div class="box" *ngFor="let product of productInfo.products">
         <img src="../../../assets/imgs/tshirt-base/{{productInfo.bases[product.base].img}}.png"/>
         <img src="{{'../../../assets/imgs/tshirt-designs/'+product.img+'.png'}}" class="design"/>
